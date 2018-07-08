@@ -1,0 +1,193 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Avinash Prabhakaran",
+    "home_page_url": "http://localhost:4000/",
+    "feed_url": "http://localhost:4000/feed.json",
+    "description": "My Personal Website",
+    "icon": "http://localhost:4000/img/favicon/apple-touch-icon.png",
+    "favicon": "http://localhost:4000/img/favicon/favicon.ico",
+    "expired": false,
+    "items": [
+    
+        {
+            "id": "http://localhost:4000/data/visualization/2018/05/18/shiny-app.html",
+            "title": "Visualize Crimes in US Counties",
+            "summary": null,
+            "content_text": "Purpose: Dwayne Johnson is planning to run for the next presidential election in 2020 and has identified reducing the number of violent crimes as one of the items he wants to use to connect more with people. So, he wants to start analyzing the crimes committed across the United States and also wants to have a more detailed understanding of the crimes within these jurisdictions.",
+            "content_html": "<p><strong>Purpose</strong>: Dwayne Johnson is planning to run for the next presidential election in 2020 and has identified reducing the number of violent crimes as one of the items he wants to use to connect more with people. So, he wants to start analyzing the crimes committed across the United States and also wants to have a more detailed understanding of the crimes within these jurisdictions.</p>",
+            "url": "http://localhost:4000/data/visualization/2018/05/18/shiny-app.html",
+            "image": "http://localhost:4000/img/app_copy.jpg",
+            
+            
+            "tags": ["R","Shiny","Dashboard","Visualization","DSCI-532"],
+            "date_published": "2018-05-18T00:00:00-07:00",
+            "date_modified": "2018-05-18T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/experimental/analysis/2018/04/21/exp-analysis.html",
+            "title": "Data Science Language Analysis",
+            "summary": null,
+            "content_text": "It is common to hear from people working with data that they have a clear choice between R and Python.  We were curious to know if there could be a specific reason underlying such choice. After some brainstorming, we came up with the hypothesis that a person’s choice between R and Python might be due to their preference in a specific data science task such as data visualization, data wrangling and machine learning.  We have set the goal to explore such causal relationship (if there exists one) with data in our data analysis project.",
+            "content_html": "<p>It is common to hear from people working with data that they have a clear choice between R and Python.  We were curious to know if there could be a specific reason underlying such choice. After some brainstorming, we came up with the hypothesis that a person’s choice between R and Python might be due to their preference in a specific data science task such as <strong>data visualization</strong>, <strong>data wrangling</strong> and <strong>machine learning</strong>.  We have set the goal to explore such causal relationship (if there exists one) with data in our data analysis project.</p>",
+            "url": "http://localhost:4000/experimental/analysis/2018/04/21/exp-analysis.html",
+            "image": "http://localhost:4000/img/exp-analysis_copy.jpg",
+            
+            
+            "tags": ["R","Experimental Analysis","DSCI-554"],
+            "date_published": "2018-04-21T00:00:00-07:00",
+            "date_modified": "2018-04-21T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/r/package/2018/04/14/gitBusy.html",
+            "title": "R Package for GitHub API",
+            "summary": null,
+            "content_text": "gitBusy is a user-friendly and intuitive API wrapper for Github. The package allows users to efficiently retrieve information on organizations, users, and repositories from the Github website. This project is part of the DSCI 525 Web and Cloud Computing Course for the Masters of Data Science program at The University of British Columbia.",
+            "content_html": "<p><strong>gitBusy</strong> is a user-friendly and intuitive API wrapper for Github. The package allows users to efficiently retrieve information on organizations, users, and repositories from the Github website. This project is part of the DSCI 525 Web and Cloud Computing Course for the Masters of Data Science program at The University of British Columbia.</p>",
+            "url": "http://localhost:4000/r/package/2018/04/14/gitBusy.html",
+            "image": "http://localhost:4000/img/gitbusy_copy.jpg",
+            
+            
+            "tags": ["R","API","Package","DSCI-525"],
+            "date_published": "2018-04-14T00:00:00-07:00",
+            "date_modified": "2018-04-14T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/data/pipeline/2018/02/17/income-prediction.html",
+            "title": "Data Pipeline to Predict User Income",
+            "summary": null,
+            "content_text": "The project aims to classify people into two groups, i.e. who earn more than $50,000 and less than $50,000. People are classified based on features such as age, workclass, education, marital-status, occupation, race, sex, hours-per-week and native-country.",
+            "content_html": "<p>The project aims to classify people into two groups, i.e. who earn <strong>more than $50,000</strong> and <strong>less than $50,000</strong>. People are classified based on features such as <em>age</em>, <em>workclass</em>, <em>education</em>, <em>marital-status</em>, <em>occupation</em>, <em>race</em>, <em>sex</em>, <em>hours-per-week</em> and <em>native-country</em>.</p>",
+            "url": "http://localhost:4000/data/pipeline/2018/02/17/income-prediction.html",
+            "image": "http://localhost:4000/img/income_copy.jpg",
+            
+            
+            "tags": ["Python","R","Docker","Packrat","Virtual Env","DSCI-522"],
+            "date_published": "2018-02-17T00:00:00-08:00",
+            "date_modified": "2018-02-17T00:00:00-08:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/image/processing/2017/10/09/autonomous-car.html",
+            "title": "Virtual Self Driving Car",
+            "summary": null,
+            "content_text": "Though driving is fun, doesnt all love to sit back and hand over the steering to safe hands? It is unlikely to get better than have a system that continually updates and improvises itself to achieve perfection and do the driving for you.",
+            "content_html": "<p>Though driving is fun, doesnt all love to sit back and hand over the steering to safe hands? It is unlikely to get better than have a system that continually updates and improvises itself to achieve perfection and do the driving for you.</p>",
+            "url": "http://localhost:4000/image/processing/2017/10/09/autonomous-car.html",
+            "image": "http://localhost:4000/img/car_copy.jpg",
+            
+            
+            "tags": ["Python","Image Processing","CNN"],
+            "date_published": "2017-10-09T00:00:00-07:00",
+            "date_modified": "2017-10-09T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/data/visualization/2017/09/28/seaborn.html",
+            "title": "Data Visualization With Seaborn",
+            "summary": null,
+            "content_text": "Seaborn is a high-level Python data visualization library used for making attractive and informative statistical plots. It acts as a wrapper over matplotlib, and it’s used in conjunction with NumPy and pandas data structures.",
+            "content_html": "<p>Seaborn is a high-level Python data visualization library used for making attractive and informative statistical plots. It acts as a wrapper over matplotlib, and it’s used in conjunction with NumPy and pandas data structures.</p>",
+            "url": "http://localhost:4000/data/visualization/2017/09/28/seaborn.html",
+            "image": "http://localhost:4000/img/seaborn_copy.jpg",
+            
+            
+            "tags": ["Python","Seaborn","Matplotlib","Visualization"],
+            "date_published": "2017-09-28T00:00:00-07:00",
+            "date_modified": "2017-09-28T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/image/processing/2017/05/17/doom.html",
+            "title": "Powering AI to Play Doom",
+            "summary": null,
+            "content_text": "As a kid, this is a game I really enjoyed playing though my mom used to go wild as all she saw was the constantly firing barrel on the computer screen. Here AI is used to train the model to beat the game!",
+            "content_html": "<p>As a kid, this is a game I really enjoyed playing though my mom used to go wild as all she saw was the constantly firing barrel on the computer screen. Here AI is used to train the model to beat the game!</p>",
+            "url": "http://localhost:4000/image/processing/2017/05/17/doom.html",
+            "image": "http://localhost:4000/img/doom_copy.jpg",
+            
+            
+            "tags": ["Python","Image Processing","CNN"],
+            "date_published": "2017-05-17T00:00:00-07:00",
+            "date_modified": "2017-05-17T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/web/development,/2017/02/26/pkbalakrishnan.com.html",
+            "title": "pkbalakrishnan.com",
+            "summary": null,
+            "content_text": "Developed a responsive website using Bootstrap, HTML and CSS. For the back-end, PHP is used to interface with the MySQL database. The website gives a glimpse into the works of PK Balakrishnan, a well-known author and journalist of Kerala.",
+            "content_html": "<p>Developed a responsive website using Bootstrap, HTML and CSS. For the back-end, PHP is used to interface with the MySQL database. The website gives a glimpse into the works of PK Balakrishnan, a well-known author and journalist of Kerala.</p>",
+            "url": "http://localhost:4000/web/development,/2017/02/26/pkbalakrishnan.com.html",
+            "image": "http://localhost:4000/img/pkb_copy.jpg",
+            
+            
+            "tags": ["Web Development","PHP","Bootstrap"],
+            "date_published": "2017-02-26T00:00:00-08:00",
+            "date_modified": "2017-02-26T00:00:00-08:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/robotics/2016/04/22/gesture-controlled-wall-climbing-robot.html",
+            "title": "Gesture Controlled Wall Climbing Robot",
+            "summary": null,
+            "content_text": "The robot was built using custom hardware with Arduino programmed by C++ used as its brain. The robot is maneuvered using Gesture control. It finds applications in high-rise buildings, hazardous industrial environments and the like for reconnaissance, surveillance, etc.",
+            "content_html": "<p>The robot was built using custom hardware with Arduino programmed by C++ used as its brain. The robot is maneuvered using Gesture control. It finds applications in high-rise buildings, hazardous industrial environments and the like for reconnaissance, surveillance, etc.</p>",
+            "url": "http://localhost:4000/robotics/2016/04/22/gesture-controlled-wall-climbing-robot.html",
+            "image": "http://localhost:4000/img/robot_copy.jpg",
+            
+            
+            "tags": ["Robotics","C++","Arduino","Undergrad Project"],
+            "date_published": "2016-04-22T00:00:00-07:00",
+            "date_modified": "2016-04-22T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        },
+    
+        {
+            "id": "http://localhost:4000/robotics/2015/09/25/claytronics.html",
+            "title": "Claytronics",
+            "summary": null,
+            "content_text": "‘Claytronics’ is a concept of the future which aims to break the barrier in transferring and transforming tangible 3D objects. The concept is to make an object to be composed of millions of programmed nanoscale robots and to move them relative to each other in a controlled, coordinated manner to change shape and other properties of the body. Claytronics has the potential to greatly affect many areas of daily life, such as telecommunication, human-computer interface, entertainment, etc.",
+            "content_html": "<p>‘Claytronics’ is a concept of the future which aims to break the barrier in transferring and transforming tangible 3D objects. The concept is to make an object to be composed of millions of programmed nanoscale robots and to move them relative to each other in a controlled, coordinated manner to change shape and other properties of the body. Claytronics has the potential to greatly affect many areas of daily life, such as telecommunication, human-computer interface, entertainment, etc.</p>",
+            "url": "http://localhost:4000/robotics/2015/09/25/claytronics.html",
+            "image": "http://localhost:4000/img/claytronics_copy.jpg",
+            
+            
+            "tags": ["Robotics","Presentation","Concept"],
+            "date_published": "2015-09-25T00:00:00-07:00",
+            "date_modified": "2015-09-25T00:00:00-07:00",
+            "author": {
+                "name": "Avinash Prabhakaran"
+            }
+        }
+    
+    ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+    <div id="particles-js" class="particles-large">
+        <div class="main-title">
+            <h1 class="site-title">{{site.username}}</h1>
+            <h2 class="site-subtitle">{{site.user_subtitle}}</h2>
+            <div class="icons-header">
+                <a aria-label="Send email" href="mailto:{{site.email}}"><i class="icon fa fa-envelope"></i></a>
+                <a aria-label="My Facebook" target="_blank" href="https://fb.com/{{site.facebook_username}}"><i class="icon fa fa-facebook" aria-hidden="true"></i></a>
+                <a aria-label="My Instagram" target="_blank" href="https://instagram.com/{{site.instagram_username}}"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+                <a aria-label="My Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
+                <a aria-label="My Github" target="_blank" href="https://github.com/{{site.github_username}}"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+              </div>
+            <a class="link" href="#about" data-scroll>About Me</a>
+            <a class="link" href="#projects" data-scroll>Projects</a>
+        </div>
+        <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+    <div class="content">
+        <section id="about">
+            <div class="container">
+                <div class="about">
+                    <h2> About Me </h2>
+                    <p> {{site.user_description}} </p>
+                    <div class="user">
+                        <div class="tech">
+                          <h3>Code</h3>
+                          <img src="../img/r.png" width="64" height="64">
+                          <i class="devicon-python-plain-wordmark"></i>
+                          <i class="devicon-mysql-plain-wordmark colored"></i>
+                          <p>Languages I use am proficient with. Some of the other languages I have prior experience working with are C++, C, Matlab, php and Java.</p>
+                        </div>
+                        <div class="tech">
+                          <h3>Design</h3>
+                          <i class="devicon-html5-plain-wordmark colored"></i>
+                          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                          <i class="devicon-javascript-plain colored"></i>
+                          <p>Languages and libraries I use for web development. Some of the other languages and libraries I use for web development are jquery and mysql.</p>
+                        </div>
+                        <div class="tech">
+                          <h3>Tools</h3>
+                          <img src="../img/azure.png" width="64" height="64">
+                          <i class="devicon-docker-plain-wordmark colored"></i>
+                          <img src="../img/tableau.png" width="64" height="64">
+                          <p>Tools I am most familiar with. Some of the other tooks and libraries that I have experince working with are JIRA, GitHub and Codecov.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container projects">
+                <h2>Portfolio</h2>
+                {% for post in site.posts%}
+                    <div class="row project">
+                        <div class="col-md-6">
+                            <img alt="{{ post.image_alt }}" src="{{ post.image | prepend: site.baseurl }}" />
+                        </div>
+                        <div class="col-md-6">
+                            <h4>{{ post.title }}</h4>
+                            <ul>
+                                {% for tag in post.tags %}
+                                    <li>{{ tag }}</li>
+                                {% endfor %}
+                            </ul>
+                            <p>{{ post.excerpt }}</p>
+                            {% if post.site %}
+                                <a class="project-link" href="{{ post.url }}">Read more</a>
+                            {% endif %}
+                            {% if post.code %}
+                                <a class="project-link" href="{{ post.code }}">Check it out</a>
+                            {% endif %}
+                            {% if post.demo %}
+                                <a class="project-link" href="{{ post.demo }}">Try it</a>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
+        {{ content }}
+    </div>
+    {% include footer.html %}
+</body>
+
+</html>

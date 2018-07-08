@@ -1,0 +1,18 @@
+# Site settings
+title: Avinash Prabhakaran
+description: My Personal Website
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:4000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+username: Avinash Prabhakaran
+user_description: Fresh graduate from The Master of Data Science program from UBC with over two years of experience in using R and Python for data wrangling, visualization, and modeling.  I am a team player with leadership and organizational skills.  Loves challenging opportunities that offer new perspectives and collaborative experience that allows me to gain expertise.
+user_subtitle: Data Scientist
+email: avinashkp26@gmail.com
+facebook_username: Avinash.Prabhakaran
+instagram_username: ziavi7
+twitter_username: ziavinash
+github_username:  avinashkz
+
+sass:
+  sass_dir: css
+  style: compressed
