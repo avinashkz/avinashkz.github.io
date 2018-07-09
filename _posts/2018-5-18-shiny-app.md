@@ -3,7 +3,7 @@ layout: post
 title: "Visualize Crimes in US Counties"
 author: Avinash Prabhakaran
 categories: Data Visualization
-tags: [R, Shiny, Dashboard, Visualization, DSCI-532]
+tags: [R, Shiny, Dashboard, Visualization]
 image: /img/app_copy.jpg
 image_alt: Shiny Application
 code: https://github.com/avinashkz/us-county-crime-visualization

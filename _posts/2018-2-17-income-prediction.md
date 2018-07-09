@@ -3,7 +3,7 @@ layout: project
 title: "Data Pipeline to Predict User Income"
 author: Avinash Prabhakaran
 categories: Data Pipeline
-tags: [Python, R, Docker, Packrat, Virtual Env, DSCI-522]
+tags: [Python, R, Docker, Packrat, DSCI-522]
 image: /img/income_copy.jpg
 image_alt: Predict User Income
 code: https://github.com/avinashkz/income-prediction
