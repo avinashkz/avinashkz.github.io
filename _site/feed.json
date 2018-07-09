@@ -19,7 +19,7 @@
             "image": "http://localhost:4000/img/app_copy.jpg",
             
             
-            "tags": ["R","Shiny","Dashboard","Visualization","DSCI-532"],
+            "tags": ["R","Shiny","Dashboard","Visualization"],
             "date_published": "2018-05-18T00:00:00-07:00",
             "date_modified": "2018-05-18T00:00:00-07:00",
             "author": {
@@ -52,7 +52,7 @@
             "content_text": "gitBusy is a user-friendly and intuitive API wrapper for Github. The package allows users to efficiently retrieve information on organizations, users, and repositories from the Github website. This project is part of the DSCI 525 Web and Cloud Computing Course for the Masters of Data Science program at The University of British Columbia.",
             "content_html": "<p><strong>gitBusy</strong> is a user-friendly and intuitive API wrapper for Github. The package allows users to efficiently retrieve information on organizations, users, and repositories from the Github website. This project is part of the DSCI 525 Web and Cloud Computing Course for the Masters of Data Science program at The University of British Columbia.</p>",
             "url": "http://localhost:4000/r/package/2018/04/14/gitBusy.html",
-            "image": "http://localhost:4000/img/gitbusy_copy.jpg",
+            "image": "http://localhost:4000/img/gitBusy_copy.jpg",
             
             
             "tags": ["R","API","Package","DSCI-525"],
@@ -73,7 +73,7 @@
             "image": "http://localhost:4000/img/income_copy.jpg",
             
             
-            "tags": ["Python","R","Docker","Packrat","Virtual Env","DSCI-522"],
+            "tags": ["Python","R","Docker","Packrat","DSCI-522"],
             "date_published": "2018-02-17T00:00:00-08:00",
             "date_modified": "2018-02-17T00:00:00-08:00",
             "author": {
