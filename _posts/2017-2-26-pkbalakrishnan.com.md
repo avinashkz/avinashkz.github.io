@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "pkbalakrishnan.com"
 author: Avinash Prabhakaran
 categories: Web Development,

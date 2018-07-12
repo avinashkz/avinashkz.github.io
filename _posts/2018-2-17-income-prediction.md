@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title: "Data Pipeline to Predict User Income"
 author: Avinash Prabhakaran
 categories: Data Pipeline
