@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="about">
                     <h2> About Me </h2>
-                    <p> {{site.user_description}} <a href = "about/" style="text-decoration: none; color: black;"> <b>Read More </b><i class="icon fa fa-chevron-right" aria-hidden="true"></i> </a></p> 
+                    <p> {{site.user_description}} <a href = "about.html" style="text-decoration: none; color: black;"> <b>Read More </b><i class="icon fa fa-chevron-right" aria-hidden="true"></i> </a></p> 
                     <div class="user">
                         <div class="tech">
                           <h3>Code</h3>
@@ -82,6 +82,7 @@
                             <img alt="{{ post.image_alt }}" src="{{ post.image | prepend: site.baseurl }}" />
                         </div>
                     </div>
+                    <br>
 
 
                     {% else %}
@@ -109,6 +110,7 @@
                                 {% endif %}
                             </div>
                         </div>
+                        <br>
 
 
                     {% endif %}
