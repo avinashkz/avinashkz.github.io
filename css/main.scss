@@ -421,3 +421,15 @@ h4 {
     }
 }
 
+
+@media only screen and (max-width: 1024px) {
+    .img-right {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .img-left {
+      display: none;
+    }
+  }

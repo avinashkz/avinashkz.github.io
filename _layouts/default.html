@@ -61,7 +61,7 @@
                     {% assign mod = forloop.index | modulo: 2 %}
                     {% if mod == 0 %}
                     <!-- even -->
-                    <div class="row project">
+                    <div class="row project img-right">
                         <div class="col-md-6">
                             <h4>{{ post.title }}</h4>
                             <ul>
@@ -84,6 +84,30 @@
                             <img alt="{{ post.image_alt }}" src="{{ post.image | prepend: site.baseurl }}" />
                         </div>
                     </div>
+
+                    <div class="row project img-left">
+                        <div class="col-md-6">
+                            <img alt="{{ post.image_alt }}" src="{{ post.image | prepend: site.baseurl }}" />
+                        </div>
+                        <div class="col-md-6">
+                            <h4>{{ post.title }}</h4>
+                            <ul>
+                                {% for tag in post.tags %}
+                                    <li>{{ tag }}</li>
+                                {% endfor %}
+                            </ul>
+                            <p>{{ post.excerpt }}</p>
+                            {% if post.site %}
+                                <a class="project-link" href="{{ post.url }}">Read more</a>
+                            {% endif %}
+                            {% if post.code %}
+                                <a class="project-link" href="{{ post.code }}" target="_blank" style="width:120px">GitHub Repo</a>
+                            {% endif %}
+                            {% if post.demo %}
+                                <a class="project-link" href="{{ post.demo }}" target="_blank">Try it</a>
+                            {% endif %}
+                        </div>
+                </div>
 
 
                     {% else %}
@@ -110,7 +134,7 @@
                                     <a class="project-link" href="{{ post.demo }}" target="_blank">Try it</a>
                                 {% endif %}
                             </div>
-                        </div>
+                    </div>
 
                     {% endif %}
 
