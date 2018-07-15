@@ -56,6 +56,8 @@
                 <h2>Portfolio</h2>
                 {% for post in site.posts%}
 
+                
+                <!-- https://stackoverflow.com/questions/8980192/liquid-templates-even-odd-items-in-for-loop?rq=1 -->
                     {% assign mod = forloop.index | modulo: 2 %}
                     {% if mod == 0 %}
                     <!-- even -->
@@ -102,16 +104,17 @@
                                     <a class="project-link" href="{{ post.url }}">Read more</a>
                                 {% endif %}
                                 {% if post.code %}
-                                    <a class="project-link" href="{{ post.code }}">Check it out</a>
+                                    <a class="project-link" href="{{ post.code }}" target="_blank" style="width:120px">GitHub Repo</a>
                                 {% endif %}
                                 {% if post.demo %}
-                                    <a class="project-link" href="{{ post.demo }}">Try it</a>
+                                    <a class="project-link" href="{{ post.demo }}" target="_blank">Try it</a>
                                 {% endif %}
                             </div>
                         </div>
 
                     {% endif %}
 
+                    <!-- https://stackoverflow.com/questions/34568011/add-an-element-on-the-last-jekyll-loop-of-posts -->
                     {% if forloop.last == false %}
                         <hr>
                     {% endif %}
