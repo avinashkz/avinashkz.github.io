@@ -3,7 +3,7 @@ layout: post
 title: "Data Science Language Analysis"
 author: Avinash Prabhakaran
 categories: Experimental Analysis
-tags: [R, Experimental Analysis, DSCI-554]
+tags: [R, Experimental Analysis]
 image: /img/exp-analysis_copy.jpg
 image_alt: Data Science Language
 code: https://github.com/avinashkz/DS_language_analysis
