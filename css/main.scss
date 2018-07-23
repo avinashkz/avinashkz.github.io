@@ -113,7 +113,7 @@ h4 {
 
 .footer {
     bottom: 0pt;
-    background: $main;
+    background-image: url("/img/footer.jpg"); 
     padding: 10px 0;
     text-align: center;
     color: #FFF;
@@ -192,6 +192,7 @@ h4 {
 #particles-js {
     display: block;
     vertical-align: bottom;
+    background-image: url("/img/blue-nebula.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

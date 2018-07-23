@@ -16,7 +16,7 @@ $(document).ready(function() {
 	particlesJS('particles-js', {
 		"particles": {
 			"number": {
-				"value": 30,
+				"value": 120,
 				"density": {
 					"enable": true,
 					"value_area": 800
@@ -26,7 +26,7 @@ $(document).ready(function() {
 				"value": "#ffffff"
 			},
 			"shape": {
-				"type": "polygon",
+				"type": "circle",
 				"stroke": {
 					"width": 0,
 					"color": "#000000"
